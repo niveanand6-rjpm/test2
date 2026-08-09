@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Admin - Lakshmi Fancy Store</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ ADMIN LOGIN SCREEN ============ -->
+  <div class="login-screen" id="adminLoginScreen">
+    <div class="login-card">
+      <div class="emblem">L</div>
+      <h2>Admin Console</h2>
+      <p class="tag">Master access - Lakshmi Fancy Store</p>
+      <form id="adminLoginForm" onsubmit="attemptAdminLogin(event)">
+        <div class="field text-center">
+          <input type="password" id="adminLoginPassword" placeholder="Enter admin password" required autofocus style="text-align:center;">
+        </div>
+        <div class="error-msg hidden" id="adminLoginError">Incorrect password. Please try again.</div>
+        <button class="btn btn-primary mt-16" type="submit" style="width:100%;">Unlock Admin Console</button>
+      </form>
+      <p class="text-soft mt-16" style="font-size:.72rem;"><a href="index.html">&larr; Back to Sales App</a></p>
+    </div>
+  </div>
+
+  <!-- ============ ADMIN APP SCREEN ============ -->
+  <div id="adminAppScreen" class="hidden">
+    <header class="store-header">
+      <div class="logo-fallback">A</div>
+      <div>
+        <h1 id="adminStoreName" style="font-size:1.05rem;">Admin Console</h1>
+        <div class="sub"><a href="index.html" style="color:var(--gold-light);">&larr; Sales App</a></div>
+      </div>
+      <div class="spacer"></div>
+      <button class="logout-btn" onclick="adminLogout()">Lock</button>
+    </header>
+
+    <nav class="tab-nav" style="flex-wrap:wrap;position:static;box-shadow:none;">
+      <button class="tab-btn active" data-mod="stock" onclick="switchAdminModule('stock')">Stock</button>
+      <button class="tab-btn" data-mod="rentalInv" onclick="switchAdminModule('rentalInv')">Rental Inventory</button>
+      <button class="tab-btn" data-mod="staff" onclick="switchAdminModule('staff')">Staff</button>
+      <button class="tab-btn" data-mod="expenses" onclick="switchAdminModule('expenses')">Expenses</button>
+      <button class="tab-btn" data-mod="usage" onclick="switchAdminModule('usage')">Jewellery Usage</button>
+      <button class="tab-btn" data-mod="salesReport" onclick="switchAdminModule('salesReport')">Sales Report</button>
+      <button class="tab-btn" data-mod="customers" onclick="switchAdminModule('customers')">Customers</button>
+      <button class="tab-btn" data-mod="loyalty" onclick="switchAdminModule('loyalty')">Loyalty &amp; Discounts</button>
+      <button class="tab-btn" data-mod="personalization" onclick="switchAdminModule('personalization')">Store Setup</button>
+      <button class="tab-btn" data-mod="security" onclick="switchAdminModule('security')">Security</button>
+      <button class="tab-btn" data-mod="backup" onclick="switchAdminModule('backup')">Backup &amp; Export</button>
+    </nav>
+
+    <main id="adminMain"></main>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

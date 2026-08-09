@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lakshmi Fancy Store</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ LOGIN SCREEN ============ -->
+  <div class="login-screen" id="loginScreen">
+    <div class="login-card">
+      <div class="emblem">L</div>
+      <h2>Lakshmi Fancy Store</h2>
+      <p class="tag">Sales Person Access</p>
+      <form id="loginForm" onsubmit="attemptLogin(event)">
+        <div class="field text-center">
+          <input type="password" id="loginPassword" placeholder="Enter password" required autofocus style="text-align:center;">
+        </div>
+        <div class="error-msg hidden" id="loginError">Incorrect password. Please try again.</div>
+        <button class="btn btn-primary mt-16" type="submit" style="width:100%;">Unlock</button>
+      </form>
+      <p class="text-soft mt-16" style="font-size:.72rem;">Password is set and can be reset by the Admin.</p>
+    </div>
+  </div>
+
+  <!-- ============ APP SCREEN ============ -->
+  <div id="appScreen" class="hidden">
+    <header class="store-header">
+      <span id="logoSlot"></span>
+      <div>
+        <h1 id="storeNameSlot">Lakshmi Fancy Store</h1>
+        <div class="sub" id="storeSubSlot"></div>
+      </div>
+      <div class="spacer"></div>
+      <button class="logout-btn" onclick="doLogout()">Lock</button>
+    </header>
+
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="daily" onclick="switchTab('daily')">🛍️ Daily Sales</button>
+      <button class="tab-btn" data-tab="rental" onclick="switchTab('rental')">💍 Rental</button>
+      <button class="tab-btn" data-tab="catalog" onclick="switchTab('catalog')">📋 Catalog</button>
+    </nav>
+
+    <main id="mainContent"></main>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
