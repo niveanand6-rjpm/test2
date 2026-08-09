@@ -1,0 +1,5 @@
+[
+  { "id": "att_001", "staffId": "stf_001", "date": "2026-07-04", "type": "leave", "reason": "Personal" },
+  { "id": "att_002", "staffId": "stf_001", "date": "2026-07-18", "type": "leave", "reason": "Sick" },
+  { "id": "att_003", "staffId": "stf_002", "date": "2026-07-10", "type": "leave", "reason": "Family function" }
+]

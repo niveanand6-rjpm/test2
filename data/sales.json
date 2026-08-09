@@ -1,0 +1,15 @@
+[
+  {
+    "id": "sal_001",
+    "date": "2026-08-05",
+    "itemId": "inv_001",
+    "itemName": "Oxidised Jhumka Earrings",
+    "quantity": 2,
+    "unitPrice": 180,
+    "discount": 10,
+    "total": 350,
+    "customerPhone": "9876543210",
+    "customerName": "Priya Ramesh",
+    "soldBy": "Kalaivani M"
+  }
+]

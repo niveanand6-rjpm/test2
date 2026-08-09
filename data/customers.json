@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cus_001",
+    "name": "Priya Ramesh",
+    "phone": "9876543210",
+    "address": "12 Kovil Street",
+    "region": "Rajapalayam",
+    "loyaltyPoints": 340,
+    "repeatCustomer": true,
+    "reviewGiven": true,
+    "reviewPlatform": "Google",
+    "notes": ""
+  },
+  {
+    "id": "cus_002",
+    "name": "Meena Selvam",
+    "phone": "9944112233",
+    "address": "45 Bazaar Road",
+    "region": "Srivilliputtur",
+    "loyaltyPoints": 60,
+    "repeatCustomer": false,
+    "reviewGiven": false,
+    "reviewPlatform": "",
+    "notes": ""
+  }
+]

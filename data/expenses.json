@@ -1,0 +1,5 @@
+[
+  { "id": "exp_001", "category": "Rent", "description": "Shop rent - July", "amount": 12000, "date": "2026-07-01", "month": "2026-07" },
+  { "id": "exp_002", "category": "Electricity", "description": "EB bill - July", "amount": 1800, "date": "2026-07-05", "month": "2026-07" },
+  { "id": "exp_003", "category": "Tax", "description": "GST payment - Q2", "amount": 4500, "date": "2026-07-10", "month": "2026-07" }
+]

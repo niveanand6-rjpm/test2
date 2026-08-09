@@ -1,0 +1,35 @@
+[
+  {
+    "id": "inv_001",
+    "itemName": "Oxidised Jhumka Earrings",
+    "itemCode": "EAR-001",
+    "category": "Imitation Jewellery",
+    "itemType": "Earrings (Jhumkas)",
+    "purchaseDate": "2026-01-15",
+    "quantityAvailable": 24,
+    "price": 180,
+    "imageDataUrl": ""
+  },
+  {
+    "id": "inv_002",
+    "itemName": "Kids Bangle Set (4pc)",
+    "itemCode": "BAN-014",
+    "category": "Imitation Jewellery",
+    "itemType": "Bangles (Set of 2/4)",
+    "purchaseDate": "2026-02-02",
+    "quantityAvailable": 40,
+    "price": 90,
+    "imageDataUrl": ""
+  },
+  {
+    "id": "inv_003",
+    "itemName": "Decorative Photo Frame - Small",
+    "itemCode": "PF-007",
+    "category": "Fancy Items",
+    "itemType": "Photo Frames (Decorative)",
+    "purchaseDate": "2026-03-10",
+    "quantityAvailable": 15,
+    "price": 250,
+    "imageDataUrl": ""
+  }
+]

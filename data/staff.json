@@ -1,0 +1,20 @@
+[
+  {
+    "id": "stf_001",
+    "name": "Kalaivani M",
+    "phone": "9865123400",
+    "role": "Sales Associate",
+    "monthlySalary": 3000,
+    "joinDate": "2024-06-01",
+    "active": true
+  },
+  {
+    "id": "stf_002",
+    "name": "Suresh Kumar",
+    "phone": "9865123411",
+    "role": "Sales Associate",
+    "monthlySalary": 3500,
+    "joinDate": "2025-02-15",
+    "active": true
+  }
+]

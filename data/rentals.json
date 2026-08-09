@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ren_001",
+    "rentalItemId": "rit_003",
+    "itemName": "Maang Tikka & Matha Patti Set",
+    "customerPhone": "9876543210",
+    "customerName": "Priya Ramesh",
+    "customerAddress": "12 Kovil Street",
+    "eventType": "Reception",
+    "rentalDate": "2026-08-07",
+    "expectedReturnDate": "2026-08-09",
+    "actualReturnDate": "",
+    "days": 2,
+    "dailyRate": 200,
+    "deposit": 1000,
+    "discount": 20,
+    "advancePaid": 400,
+    "total": 780,
+    "balance": 380,
+    "status": "active",
+    "handledBy": "Kalaivani M"
+  }
+]

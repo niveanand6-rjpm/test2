@@ -1,0 +1,53 @@
+[
+  {
+    "id": "rit_001",
+    "itemName": "Bridal Kundan Necklace Set",
+    "itemCode": "RNS-101",
+    "category": "Imitation Jewellery",
+    "itemType": "Kundan / Polki Style Jewellery",
+    "dailyRate": 500,
+    "deposit": 3000,
+    "status": "available",
+    "purchasedFrom": "Madurai Wholesale Traders",
+    "purchaseDate": "2025-11-20",
+    "purchasePrice": 4200,
+    "warranty": "None",
+    "imageDataUrl": "",
+    "timesRented": 6,
+    "totalEarned": 9200
+  },
+  {
+    "id": "rit_002",
+    "itemName": "Temple Jewellery Long Haaram",
+    "itemCode": "RNS-102",
+    "category": "Imitation Jewellery",
+    "itemType": "Temple Jewellery (Imitation)",
+    "dailyRate": 650,
+    "deposit": 4000,
+    "status": "available",
+    "purchasedFrom": "Trichy Antique Jewels",
+    "purchaseDate": "2025-12-05",
+    "purchasePrice": 5500,
+    "warranty": "None",
+    "imageDataUrl": "",
+    "timesRented": 4,
+    "totalEarned": 7800
+  },
+  {
+    "id": "rit_003",
+    "itemName": "Maang Tikka & Matha Patti Set",
+    "itemCode": "RMT-021",
+    "category": "Imitation Jewellery",
+    "itemType": "Maang Tikka / Matha Patti",
+    "dailyRate": 200,
+    "deposit": 1000,
+    "status": "rented",
+    "purchasedFrom": "Rajapalayam Local Vendor",
+    "purchaseDate": "2026-01-08",
+    "purchasePrice": 900,
+    "warranty": "None",
+    "imageDataUrl": "",
+    "timesRented": 11,
+    "totalEarned": 5100
+  }
+]

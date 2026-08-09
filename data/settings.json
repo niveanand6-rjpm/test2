@@ -1,0 +1,27 @@
+{
+  "storeName": "Lakshmi Fancy Store",
+  "logoDataUrl": "",
+  "branch": "Main Branch",
+  "businessType": "Imitation Jewellery & Fancy Items",
+  "address": "Rajapalayam, Tamil Nadu",
+  "region": "Rajapalayam",
+  "phone": "9944000000",
+  "email": "info@lakshmifancystore.example",
+  "gstNumber": "",
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "whatsapp": ""
+  },
+  "qrCodes": {
+    "storeLocation": "",
+    "gpay": "",
+    "phonepe": "",
+    "googleReview": ""
+  },
+  "salesPersonPassword": "sales1111",
+  "adminPassword": "admin111",
+  "autoBackupHours": 3,
+  "lastSetupNote": "Change default passwords immediately from the Admin > Security panel."
+}
